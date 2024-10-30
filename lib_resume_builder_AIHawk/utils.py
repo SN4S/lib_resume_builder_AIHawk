@@ -73,6 +73,7 @@ def get_chrome_browser_options():
     options.add_argument("--disable-plugins")  # Disabilita i plugin del browser
     options.add_argument("--disable-animations")  # Disabilita le animazioni
     options.add_argument("--disable-cache")  # Disabilita la cache
+    options.add_argument("--headless")
     #options.add_argument('--proxy-server=localhost:8081')
     #options.add_experimental_option("useAutomationExtension", False)  # Disabilita l'estensione di automazione di Chrome
     options.add_experimental_option("excludeSwitches", ["enable-automation", "enable-logging"])  # Esclude switch della modalità automatica e logging
